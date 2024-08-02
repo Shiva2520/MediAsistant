@@ -1,0 +1,764 @@
+<resources>
+    <string name="app_name">Med_assist</string>
+
+    <string-array name="gender">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+    <string-array name="Sneezing">
+        <item>Yes</item>
+        <item>No</item>
+    </string-array>
+
+    <string-array name="cough">
+        <item>No</item>
+        <item>Mild</item>
+        <item>Moderate</item>
+        <item>Severe</item>
+    </string-array>
+
+    <string-array name="Vomiting">
+        <item>Yes</item>
+        <item>No</item>
+    </string-array>
+
+    //HEAD
+    <string-array name="head1">
+        <item>No</item>
+        <item>"Yes</item>
+    </string-array>
+
+    <string-array name="head2">
+        <item>No</item>
+        <item>Yes</item>
+    </string-array>
+
+    <string-array name="head3">
+        <item>No</item>
+        <item>Yes</item>
+    </string-array>
+
+    <string-array name="head4">
+        <item>No</item>
+        <item>Yes</item>
+    </string-array>
+
+    <string-array name="head5">
+        <item>No</item>
+        <item>Yes</item>
+    </string-array>
+
+    <string-array name="head6">
+        <item>No</item>
+        <item>"Yes</item>
+    </string-array>
+
+    <string-array name="head7">
+        <item>No</item>
+        <item>Yes,presyncopal event</item>
+        <item>Yes</item>
+    </string-array>
+
+    <string-array name="head8">
+        <item>No loss of consciousness</item>
+        <item>Palpitations absent</item>
+        <item>Palpitations present</item>
+    </string-array>
+
+    <string-array name="head9">
+        <item>No loss of consciousness</item>
+        <item>Chest Pain absent</item>
+        <item>Chest pain present</item>
+    </string-array>
+
+    <string-array name="head10">
+        <item>No loss of consciousness</item>
+        <item>Headache absent</item>
+        <item>Mild Headache present</item>
+        <item>Moderate/Severe Headache absent</item>
+    </string-array>
+
+    <string-array name="head11">
+        <item>No loss of consciousness</item>
+        <item>Seizures absent</item>
+        <item>Seizures present</item>
+    </string-array>
+
+    <string-array name="head12">
+        <item>No loss of consciousness</item>
+        <item>Sphincter control present</item>
+        <item>Sphincter control absent</item>
+    </string-array>
+
+    <string-array name="head13">
+        <item>No loss of consciousness</item>
+        <item>Postictal phase present</item>
+        <item>Postictal phase absent</item>
+    </string-array>
+
+    <string-array name="head14">
+        <item>No</item>
+        <item>Yes</item>
+    </string-array>
+
+    <string-array name="head15">
+        <item>No</item>
+        <item>Yes</item>
+    </string-array>
+
+    <string-array name="head16">
+        <item>No</item>
+        <item>Yes</item>
+    </string-array>
+
+    <string-array name="head17">
+        <item>No</item>
+        <item>Yes</item>
+    </string-array>
+
+    //lower back
+    <string-array name="lb1">
+        <item>No lower back pain</item>
+        <item>pain not radiating</item>
+        <item>pain radiating to one of extremities</item>
+        <item>pain radiating to both extremities</item>
+    </string-array>
+
+    <string-array name="lb2">
+        <item>No lower back pain</item>
+        <item>Mild pain</item>
+        <item>Moderate Pain</item>
+        <item>Severe Pain</item>
+    </string-array>
+
+    <string-array name="lb3">
+        <item>No lower back pain</item>
+        <item>Not resolving with flexed spine</item>
+        <item>Resolving with flexed spine</item>
+    </string-array>
+
+
+    <string-array name="lb4">
+        <item>No lower back pain</item>
+        <item>No such lower back pain</item>
+        <item>Yes</item>
+    </string-array>
+
+    <string-array name="lb5">
+        <item>No lower back pain</item>
+        <item>Not resolving with rest</item>
+        <item>Resolving with rest</item>
+    </string-array>
+
+    <string-array name="lb6">
+        <item>No lower back pain</item>
+        <item>No effect</item>
+        <item>Worsens with exercise</item>
+        <item>Improves with exercise</item>
+    </string-array>
+
+    //Mouth
+    <string-array name="mouth1">
+        <item>No</item>
+        <item>Yes</item>
+    </string-array>
+
+    <string-array name="mouth2">
+        <item>No</item>
+        <item>Yes</item>
+    </string-array>
+
+    <string-array name="mouth3">
+        <item>No lower back pain</item>
+        <item>Yes</item>
+    </string-array>
+
+
+    <string-array name="mouth4">
+        <item> Absent</item>
+        <item>Present</item>
+    </string-array>
+
+    <string-array name="mouth5">
+        <item>No</item>
+        <item>Yes</item>
+    </string-array>
+
+    <string-array name="mouth6">
+        <item>No lower back</item>
+        <item>Yes</item>
+    </string-array>
+
+    <string-array name="mouth7">
+        <item>No</item>
+        <item>Yes,Unilateral</item>
+        <item>Yes,Bilateral</item>
+    </string-array>
+
+    <string-array name="mouth8">
+        <item>No</item>
+        <item>Yes</item>
+    </string-array>
+
+    //Heart
+    <string-array name="heart1">
+        <item>skipping or jumping of single irregular heartbeat episodically</item>
+        <item>skipping or jumping of couple of irregular overly fast heartbeats in a row</item>
+        <item>couple of minutes run of irregular or overly fast heartbeats</item>
+        <item>Irregular or overly fast heartbeats lasting at least minutes</item>
+    </string-array>
+
+    <string-array name="heart2">
+        <item>No</item>
+        <item>Yes</item>
+    </string-array>
+
+    <string-array name="heart3">
+        <item>No</item>
+        <item>Yes</item>
+    </string-array>
+
+    <string-array name="heart4">
+        <item>No</item>
+        <item>Yes</item>
+    </string-array>
+
+    <string-array name="heart5">
+        <item>No</item>
+        <item>Yes</item>
+    </string-array>
+
+    <string-array name="heart6">
+
+        <item>No</item>
+        <item>Yes</item>
+    </string-array>
+
+    //joints
+
+    <string-array name="joint1">
+
+        <item>No</item>
+        <item>Yes</item>
+    </string-array>
+
+    <string-array name="joint2">
+
+        <item>No</item>
+        <item>Yes</item>
+    </string-array>
+
+    <string-array name="joint3">
+
+        <item>No</item>
+        <item>Yes</item>
+    </string-array>
+
+    <string-array name="joint4">
+
+        <item>No</item>
+        <item>Yes</item>
+    </string-array>
+
+    <string-array name="joint5">
+
+        <item>No pain in the first metatarsophalangeal joint</item>
+        <item>Yes, maximum pain severity is 4 out of 10</item>
+        <item>Yes, maximum pain severity is 4 to 7 out of 10</item>
+        <item>Yes, maximum pain severity is at least 8 out of 10</item>
+    </string-array>
+
+    <string-array name="joint6">
+
+        <item>Pain progressed within 0–12 hours</item>
+        <item>Pain progressed within 12–24 hours</item>
+        <item>Pain progressed within few days</item>
+        <item>Pain progressed within few weeks</item>
+        <item>Pain progressed within few months or longer</item>
+    </string-array>
+
+    <string-array name="joint7">
+        <item>No</item>
+        <item>Yes</item>
+    </string-array>
+
+    <string-array name="joint8">
+        <item>No</item>
+        <item>Yes, there is a history of resting pain in feet or toes. in one lower extremity, with worsened pain, after feet has been dependent for some time, and relief in pain when feet are raised to hip level</item>
+        <item>Yes, there is a history of resting pain in feet or toes. in one lower extremity,and the resting pain is constant, regardless of whether feet are dependent or raised</item>
+        <item>Yes, there is a history of resting pain in feet or toes. in both feet, with worsened pain, after feet has been dependent for some time, and relief in pain when feet are raised to hip level</item>
+        <item>Yes, there is a history of resting pain in feet or toes. in both feet, and the resting pain is constant, regardless of whether feet are dependent or raised</item>
+
+    </string-array>
+
+    //throat
+    <string-array name="throat1">
+        <item>No</item>
+        <item>Yes</item>
+    </string-array>
+
+    <string-array name="throat2">
+        <item>No</item>
+        <item>Yes</item>
+    </string-array>
+
+    <string-array name="throat3">
+        <item>No</item>
+        <item>Yes</item>
+    </string-array>
+
+    <string-array name="throat4">
+        <item>No</item>
+        <item>Yes, solid foods get stuck, but it had been stable.</item>
+        <item>Yes, solid foods get stuck and it is worsening.</item>
+    </string-array>
+
+    <string-array name="throat5">
+        <item>No</item>
+        <item>Yes, fluids get stuck, but it had been stable.</item>
+        <item>Yes, fluids get stuck and it is worsening.</item>
+    </string-array>
+
+    <string-array name="throat6">
+        <item>No</item>
+        <item>Yes</item>
+    </string-array>
+
+    <string-array name="throat7">
+        <item>No</item>
+        <item>Yes,</item>
+    </string-array>
+
+    <string-array name="throat8">
+        <item>No</item>
+        <item>Yes</item>
+    </string-array>
+
+    <string-array name="throat9">
+        <item>No</item>
+        <item>Yes</item>
+    </string-array>
+
+    <string-array name="throat10">
+        <item>No</item>
+        <item>Yes</item>
+    </string-array>
+
+    <string-array name="throat11">
+        <item>No</item>
+        <item>Yes</item>
+    </string-array>
+
+    //abdomen
+    <string-array name="abdomen1">
+        <item>No</item>
+        <item>Yes</item>
+    </string-array>
+
+
+    <string-array name="abdomen2">
+        <item> No abdominal pain at all</item>
+        <item>No abdominal pain that is worsened by stressors</item>
+        <item>Has abdominal pain </item>
+    </string-array>
+
+    <string-array name="adbomen3">
+        <item>No belly pain</item>
+        <item>Belly pain not improving after bowel movement</item>
+        <item>Belly pain not improving after bowel movement</item>
+    </string-array>
+
+    <string-array name="abdomen4">
+        <item>Normal flatulence</item>
+        <item>Able to pass minimum flatulence</item>
+        <item>Unable to pass flatulence</item>
+        <item>Severe flatulence</item>
+    </string-array>
+
+    <string-array name="abdomen5">
+        <item>No Pain at all</item>
+        <item>1-4</item>
+        <item>5-7</item>
+        <item>8-10</item>
+    </string-array>
+
+
+    <string-array name="abdomen6">
+        <item> No pain at all</item>
+        <item>Localised Pain</item>
+        <item>Affecting 2 quadrants</item>
+        <item>Affecting all four quadrants</item>
+    </string-array>
+
+    <string-array name="adbomen7">
+        <item>No abdominal pain</item>
+        <item>Pain reduces periodically completely</item>
+        <item>Pain reduces periodically partially</item>
+        <item>Pain doesnt reduce much</item>
+    </string-array>
+
+    <string-array name="abdomen8">
+        <item>No</item>
+        <item>Yes,but rarely</item>
+        <item>Yes,continous,but goes away periodically</item>
+        <item>Yes,but goes away only after medications</item>
+    </string-array>
+
+    <string-array name="abdomen9">
+        <item>No</item>
+        <item>Yes</item>
+    </string-array>
+
+
+    <string-array name="abdomen10">
+        <item> No</item>
+        <item>Yes</item>
+    </string-array>
+
+    <string-array name="adbomen11">
+        <item>No abdominal pain</item>
+        <item>Over minutes</item>
+        <item>Over hours</item>
+        <item>Over days</item>
+        <item>Over weeks</item>
+        <item>Over months</item>
+    </string-array>
+
+    <string-array name="adbomen12">
+        <item>No abdominal pain</item>
+        <item>Over minutes</item>
+        <item>Over hours</item>
+        <item>Over days</item>
+        <item>Over weeks</item>
+        <item>Over months</item>
+    </string-array>
+
+    <string-array name="adbomen13">
+        <item>No abdominal pain</item>
+        <item>Minutes</item>
+        <item>Hours</item>
+        <item>Days</item>
+        <item>Weeks</item>
+        <item>Months</item>
+    </string-array>>
+
+
+    <string-array name="abdomen14">
+        <item> No</item>
+        <item>Yes</item>
+    </string-array>
+
+    <string-array name="adbomen15">
+        <item>No pain at all</item>
+        <item>No</item>
+        <item>Yes</item>
+    </string-array>
+
+    <string-array name="adbomen16">
+        <item>No pain at all</item>
+        <item>No</item>
+        <item>Yes</item>
+    </string-array>
+
+
+    <string-array name="adbomen17">
+        <item>No pain at all</item>
+        <item>No</item>
+        <item>Yes</item>
+    </string-array>
+
+
+    <string-array name="abdomen18">
+        <item> No</item>
+        <item>Yes</item>
+    </string-array>
+
+    <string-array name="adbomen19">
+        <item>No pain at all</item>
+        <item>Pain absent in mentioned area</item>
+        <item>Pain present in mentioned area</item>
+    </string-array>
+
+    <string-array name="adbomen20">
+        <item>No pain at all</item>
+        <item>Pain absent in mentioned area</item>
+        <item>Pain present in mentioned area</item>
+    </string-array>
+
+    <string-array name="abdomen21">
+        <item>No</item>
+        <item>Yes,minimal</item>
+        <item>Yes,moderate to severe</item>
+    </string-array>
+
+
+    <string-array name="adbomen22">
+        <item>No pain at all</item>
+        <item>No</item>
+        <item>Yes</item>
+    </string-array>
+
+    <string-array name="adbomen23">
+        <item>No pain at all</item>
+        <item>No</item>
+        <item>Yes</item>
+    </string-array>
+
+    <string-array name="adbomen24">
+        <item>No pain at all</item>
+        <item>No</item>
+        <item>Yes</item>
+    </string-array>
+
+    <string-array name="adbomen25">
+        <item>No pain at all</item>
+        <item>No</item>
+        <item>Yes</item>
+    </string-array>
+
+
+    <string-array name="adbomen26">
+        <item>No pain at all</item>
+        <item>No</item>
+        <item>Yes</item>
+    </string-array>
+
+    <string-array name="adbomen27">
+        <item>No pain at all</item>
+        <item>No</item>
+        <item>Yes</item>
+    </string-array>
+
+    <string-array name="adbomen28">
+        <item>No pain at all</item>
+        <item>No</item>
+        <item>Yes</item>
+    </string-array>
+
+
+    <string-array name="adbomen29">
+        <item>No pain at all</item>
+        <item>No</item>
+        <item>Yes</item>
+    </string-array>
+
+    <string-array name="adbomen30">
+        <item>No pain at all</item>
+        <item>No effect from food</item>
+        <item>Food increases discomfort</item>
+        <item>Specifically Fatty meals increase discomfort</item>
+    </string-array>
+    <string-array name="adbomen31">
+        <item>No pain at all</item>
+        <item>No</item>
+        <item>Yes</item>
+    </string-array>
+
+    <string-array name="adbomen32">
+        <item>No pain at all</item>
+        <item>No</item>
+        <item>Yes</item>
+    </string-array>
+
+    <string-array name="adbomen33">
+        <item>No</item>
+        <item>Yes</item>
+    </string-array>
+
+    <string-array name="adbomen34">
+        <item>No</item>
+        <item>Yes</item>
+    </string-array>
+
+    <string-array name="adbomen35">
+        <item>No</item>
+        <item>Yes</item>
+    </string-array>
+
+    <string-array name="adbomen36">
+        <item>No</item>
+        <item>Yes</item>
+    </string-array>
+
+    <string-array name="adbomen37">
+        <item>No</item>
+        <item>Yes</item>
+    </string-array>
+
+    <string-array name="adbomen38">
+        <item>No</item>
+        <item>Yes</item>
+    </string-array>
+
+    //nose
+    <string-array name="nose1">
+        <item>No</item>
+        <item>Yes</item>
+    </string-array>
+
+    <string-array name="nose2">
+        <item> No</item>
+        <item>Yes</item>
+    </string-array>
+
+    <string-array name="nose3">
+        <item>No</item>
+        <item>Yes</item>
+    </string-array>
+
+    <string-array name="nose4">
+        <item>No </item>
+        <item>Yes</item>
+    </string-array>
+
+    //chest
+    <string-array name="chest1">
+        <item>No</item>
+        <item>Yes</item>
+    </string-array>
+
+    <string-array name="chest2">
+        <item>No</item>
+        <item>Yes</item>
+    </string-array>
+
+    <string-array name="chest3">
+        <item>No</item>
+        <item>Yes</item>
+    </string-array>
+
+    <string-array name="chest4">
+        <item>No</item>
+        <item>Yes</item>
+    </string-array>
+
+    <string-array name="chest5">
+        <item>No</item>
+        <item>Yes</item>
+    </string-array>
+
+    <string-array name="chest6">
+        <item>No</item>
+        <item>Yes</item>
+    </string-array>
+
+    <string-array name="chest7">
+        <item>No</item>
+        <item>Yes</item>
+    </string-array>
+
+    <string-array name="chest8">
+        <item>No</item>
+        <item>Yes</item>
+    </string-array>
+
+    <string-array name="chest9">
+        <item>No</item>
+        <item>Yes</item>
+    </string-array>
+
+    <string-array name="chest10">
+        <item>No</item>
+        <item>Yes</item>
+    </string-array>
+
+    <string-array name="chest11">
+        <item>No</item>
+        <item>Yes</item>
+    </string-array>
+
+    //ear
+    <string-array name="ear1">
+        <item>No</item>
+        <item>Yes, from one ear.</item>
+        <item>Yes, from both ears</item>
+    </string-array>
+
+    <string-array name="ear2">
+        <item>No</item>
+        <item>Yes</item>
+    </string-array>
+
+    <string-array name="ear3">
+        <item>No</item>
+        <item>Yes</item>
+    </string-array>
+
+    <string-array name="ear4">
+        <item>No</item>
+        <item>Yes</item>
+    </string-array>
+
+    <string-array name="ear5">
+        <item>No</item>
+        <item>Yes</item>
+        <item>Tympanic membrane is ruptured.</item>
+    </string-array>
+
+    <string-array name="ear6">
+        <item>No</item>
+        <item>Yes</item>
+    </string-array>
+
+    <string-array name="ear7">
+        <item>No</item>
+        <item>Yes</item>
+    </string-array>
+
+    <string-array name="ear8">
+        <item>Tympanic membrane is ruptured.</item>
+        <item>No</item>
+        <item>Yes</item>
+    </string-array>
+
+    <string-array name="ear9">
+        <item>No</item>
+        <item>Yes. It comes and goes. It goes away without use of any pain medication - by itself - before it comes back. It has been less than 24 hours since the pain started.</item>
+        <item>Yes. The pain is constant, but it has been present for less than 24 hours.</item>
+        <item>Yes. The pain is constant, and it has been present for more than 24 hours.</item>
+    </string-array>
+
+    <string-array name="ear10">
+        <item>No</item>
+        <item>Yes. With one ear affected. On and off, for total time of less than 24 hours</item>
+        <item>Yes. With both ears affected. On and off, for total time of less than 24 hours</item>
+        <item>Yes. With one ear affected. Constant and for total time of less than 24 hours</item>
+        <item>Yes. With both ears affected. Constant and for total time of more than 24 hours.</item>
+    </string-array>
+
+    //eyes
+    <string-array name="eye1">
+        <item>No</item>
+        <item>"Yes, unilateral, acute.</item>
+        <item>Yes, bilateral, acute.</item>
+        <item>Yes, unilateral, chronic.</item>
+        <item>Yes, bilateral, chronic.</item>
+    </string-array>
+
+    <string-array name="eye2">
+        <item>No</item>
+        <item>Yes,partially</item>
+        <item>Yes,both eyes</item>
+    </string-array>
+
+    <string-array name="eye3">
+        <item>No</item>
+        <item>Yes,periodically occuring</item>
+        <item>Yes,permanently present</item>
+        <item>Yes,recently started</item>
+    </string-array>
+
+    <string-array name="eye4">
+        <item>No</item>
+        <item>Yes</item>
+    </string-array>
+
+    <string-array name="eye5">
+        <item>No</item>
+        <item>Yes</item>
+    </string-array>
+
+
+
+</resources>
